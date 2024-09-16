@@ -4,7 +4,7 @@
 [![Repository Status](https://img.shields.io/badge/Repository%20Status-Maintained-dark%20green.svg)](https://github.com/mohit08-tech/Portfolio)
 [![Website Status](https://img.shields.io/badge/Website%20Status-Online-green)](https://mohit-parmar.netlify.app)
 [![Author](https://img.shields.io/badge/Author-Mohit%20Parmar-purple.svg)](https://www.instagram.com/mohit_parmar_08)
-[![Latest Release](https://img.shields.io/badge/Latest%20Release-11%20Jan%202024-yellow.svg)](https://github.com/mohit08-tech/Portfolio)
+[![Latest Release](https://img.shields.io/badge/Latest%20Release-16%20Sept%202024-yellow.svg)](https://github.com/mohit08-tech/Portfolio)
 <a href="https://github.com/mohit08-tech/Portfolio/blob/main/LICENSE"><img alt="License" src="http://img.shields.io/:license-mit-blue.svg?style=flat-square?style=flat-square" /></a>
 
 <img width="100%" alt="Portfolio Screenshot" src="https://github.com/mohit08-tech/Portfolio/blob/main/src/png/Preview-card-min.png">
@@ -37,4 +37,4 @@ This project is licensed under the MIT License - see the [LICENSE.md](./LICENSE)
 * [<b>Animista</b>](https://animista.net/) - To use Interactive animations
 
 
-Please contact me at infovinodjangid@gmail.com if you have any feedback for the website. :star: Star it, if you like it!
+Please contact me at mparmar34817@gmail.com if you have any feedback for the website. :star: Star it, if you like it!
