@@ -1109,7 +1109,7 @@ footer {
 }
 
 .projects-section-container {
-    padding: 150px 0;
+    padding: 50px 0;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -1167,12 +1167,15 @@ footer {
     width: 50%;
     height: 100%;
     padding-top: 70px;
-    padding-left: 10px
+    padding-left: 10px;
+    display: flex;
+    justify-content: center;
 }
 
 .image-div img {
-    height: 100%;
-    border-top-left-radius: 30px
+    height: 80%;
+    border-top-left-radius: 00px
+
 }
 
 .ProjectHeading {
