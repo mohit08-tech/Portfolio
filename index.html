@@ -3,7 +3,7 @@
 
 
 <head>
- 
+
   <!-- don't forget to remove this >>>>(google tag manager) script, if you are using this page/code -->
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-YMWDE0VTD3"></script>
@@ -45,7 +45,7 @@
   <meta name="twitter:site" content="@Mohit_parmar07" />
   <meta name="twitter:title" content="Mohit parmar | Portfolio" />
   <meta name="twitter:description"
-  content="Hi! My name is Mohit. I'm a web developer and digital visual artist. Visit and know about me & my projects/designs. I value simple content structure, clean design patterns, and thoughtful interactions." />
+    content="Hi! My name is Mohit. I'm a web developer and digital visual artist. Visit and know about me & my projects/designs. I value simple content structure, clean design patterns, and thoughtful interactions." />
   <meta name="twitter:image" content="https://www.Mohitparmar.site/src/png/Preview-card-min.png" />
   <title>Mohit parmar | Portfolio</title>
   <link rel="icon" type="image/x-icon" href="src/png/main-favicon.png" />
@@ -65,13 +65,13 @@
   <noscript>Allow Javascript</noscript>
 
   <header>
-    
+
 
     <div class="navbar" id="navbar">
       <div class="hey">Hey!</div>
       <div class="logo" tabindex="0" aria-label="Mohit parmar logo">
         <div class="logo-top">
-          <img src="src/png/nav-avatar.png" alt="animation-head" id="nav-avatar"/>
+          <img src="src/png/nav-avatar.png" alt="animation-head" id="nav-avatar" />
         </div>
       </div>
       <div class="navbar-tabs" id="navbar-tabs">
@@ -88,18 +88,24 @@
             </a>
           </li>
 
-          <li class="skills" class="navbar-tabs-li" data-aos="fade-down" data-aos-delay="500">
+          <li class="about" class="navbar-tabs-li" data-aos="fade-down" data-aos-delay="500">
+            <a href="#education" aria-label="about menu button">
+              &#60;/Education&#62;
+            </a>
+          </li>
+
+          <li class="skills" class="navbar-tabs-li" data-aos="fade-down" data-aos-delay="700">
             <a href="#skills" aria-label="skills menu button">
               &#60;/Skills&#62;
             </a>
           </li>
-          
-          <li class="projects" class="navbar-tabs-li" data-aos="fade-down" data-aos-delay="700">
+
+          <li class="projects" class="navbar-tabs-li" data-aos="fade-down" data-aos-delay="900">
             <a href="#certificate" aria-label="projects menu button">
               &#60;/Certificate&#62;
             </a>
           </li>
-          <li class="projects" class="navbar-tabs-li" data-aos="fade-down" data-aos-delay="900">
+          <li class="projects" class="navbar-tabs-li" data-aos="fade-down" data-aos-delay="1100">
             <a href="#projects" aria-label="projects menu button">
               &#60;/Projects&#62;
             </a>
@@ -141,9 +147,9 @@
             &#60;/Skills&#62;
           </a>
         </li>
-        <li id="certificate-mobile-tab" class="mobile-navbar-tabs-li certificate" onclick="hidemenubyli()"></li>
+        <li id="projects-mobile-tab" class="mobile-navbar-tabs-li projects" onclick="hidemenubyli()">
           <a href="#certificate" tabindex="0" aria-label="projects menu button">
-            &#60;/Certificates&#62;
+            &#60;/Certificate&#62;
           </a>
         </li>
         <li id="projects-mobile-tab" class="mobile-navbar-tabs-li projects" onclick="hidemenubyli()">
@@ -237,34 +243,15 @@
               <p class="letsTalkBtn-text">Let's Talk!</p>
               <span class="letsTalkBtn-BG"></span>
             </button></a>
-          <div class="setting-container" id="setting-container">
-            <input type="checkbox" id="switchforsetting" onclick="settingtoggle()" />
-
-            <label for="switchforsetting" class="needtobeinvert" id="labelforsetting" tabindex="0"
-              aria-label="settings for sound and appearance"></label>
-
-            <div class="visualmodetogglebuttoncontainer" id="visualmodetogglebuttoncontainer">
-              <input type="checkbox" id="switchforvisualmode" onclick="visualmode()" />
-              <label for="switchforvisualmode" id="labelforvisualmode" tabindex="0"
-                aria-label="switch appearance"></label>
-            </div>
-
-            <!-- <div class="soundtogglebuttoncontainer" id="soundtogglebuttoncontainer">
-              <input type="checkbox" id="switchforsound" onclick="playpause()" />
-              <label for="switchforsound" id="labelforsound" tabindex="0" aria-label="switch sound"
-                class="needtobeinvert"></label>
-            </div> -->
-          </div>
-          <!-- setting div ends -->
         </div>
         <!-- contact-btn-div -->
       </div>
-     
+
     </section>
     <!-- landing page ends here -->
-    <section class="about-section-container" id="about" data-aos="fade-up">
-      <div class="about-section">
-        <div class="section-heading">
+    <section class="skills-section-container" id="about" >
+      <div class="skills-section">
+        <div class="section-heading"data-aos="fade-up">
           <h2 class="section-heading-article" tabindex="0" aria-label="About me heading">
             &#60;/AboutMe&#62;
           </h2>
@@ -274,7 +261,8 @@
         <div class="info-dp-section">
           <div class="about-info">
             <p tabindex="0">
-              Hi! My name is Mohit. I'm a web developer. I love creating things that exist on the internet. My interest in web development started in 2019.
+              Hi! My name is Mohit. I'm a web developer. I love creating things that exist on the internet. My interest
+              in web development started in 2019.
             </p>
             <br />
             <p tabindex="0">
@@ -288,26 +276,59 @@
               designs, I like to code things from scratch, and enjoy bringing
               ideas to life in the browser.
             </p>
-             <!-- Resume button -->
-      <button class="resume-btn" id="resume-btn" onclick="openURL()">
-        <div class="sign">
-          <svg viewBox="0 0 640 512">
-            <path
-              d="M144 480C64.5 480 0 415.5 0 336c0-62.8 40.2-116.2 96.2-135.9c-.1-2.7-.2-5.4-.2-8.1c0-88.4 71.6-160 160-160c59.3 0 111 32.2 138.7 80.2C409.9 102 428.3 96 448 96c53 0 96 43 96 96c0 12.2-2.3 23.8-6.4 34.6C596 238.4 640 290.1 640 352c0 70.7-57.3 128-128 128H144zm79-167l80 80c9.4 9.4 24.6 9.4 33.9 0l80-80c9.4-9.4 9.4-24.6 0-33.9s-24.6-9.4-33.9 0l-39 39V184c0-13.3-10.7-24-24-24s-24 10.7-24 24V318.1l-39-39c-9.4-9.4-24.6-9.4-33.9 0s-9.4 24.6 0 33.9z" />
-          </svg>
-        </div>
+            <!-- Resume button -->
+            <button class="resume-btn" id="resume-btn" onclick="openURL()">
+              <div class="sign">
+                <svg viewBox="0 0 640 512">
+                  <path
+                    d="M144 480C64.5 480 0 415.5 0 336c0-62.8 40.2-116.2 96.2-135.9c-.1-2.7-.2-5.4-.2-8.1c0-88.4 71.6-160 160-160c59.3 0 111 32.2 138.7 80.2C409.9 102 428.3 96 448 96c53 0 96 43 96 96c0 12.2-2.3 23.8-6.4 34.6C596 238.4 640 290.1 640 352c0 70.7-57.3 128-128 128H144zm79-167l80 80c9.4 9.4 24.6 9.4 33.9 0l80-80c9.4-9.4 9.4-24.6 0-33.9s-24.6-9.4-33.9 0l-39 39V184c0-13.3-10.7-24-24-24s-24 10.7-24 24V318.1l-39-39c-9.4-9.4-24.6-9.4-33.9 0s-9.4 24.6 0 33.9z" />
+                </svg>
+              </div>
 
-        <div class="text">Resume</div>
-      </button>
+              <div class="text">Resume</div>
+            </button>
           </div>
 
           <div class="dp" data-aos="fade-up">
-            <img src="src/png/Mohit.jpg" alt="Mohit parmar" tabindex="0" aria-label="image of Mohit" />
+            <img src="src/webp/Mohit.jpg" alt="Mohit parmar" tabindex="0" aria-label="image of Mohit" />
           </div>
         </div>
       </div>
     </section>
     <!-- about section ends  -->
+
+
+    <section class="skills-section-container" id="education" >
+      <div class="skills-section">
+        <div class="section-heading"data-aos="fade-up">
+          <h2 class="section-heading-article" tabindex="0" aria-label="About me heading">
+            &#60;/Education&#62;
+          </h2>
+          <p class="sectionHeadingP"></p>
+        </div>
+
+        <div class="about-info">
+          <p tabindex="0">
+            Hi! My name is Mohit. I'm a web developer. I love creating things that exist on the internet. My interest
+            in web development started in 2019.
+          </p>
+          <br />
+          <p tabindex="0">
+            Instead of creating an online Concepts Art website, i started
+            enjoying web development. Creating custom things for web taught
+            me a lot about design & development!
+          </p>
+          <br />
+          <p tabindex="0">
+            My main focus these days is building interesting & creative web
+            designs, I like to code things from scratch, and enjoy bringing
+            ideas to life in the browser.
+          </p>
+          <!-- Resume button -->
+        </div>
+      </div>
+    </section>
+
 
     <section class="skills-section-container" id="skills">
       <div class="skills-section">
@@ -368,7 +389,7 @@
               <img src="./src/png/gitlogo.png" alt="git skill" class="tech-stack-logo" />
               <span class="tooltip">GIT</span>
             </li>
-            
+
             <li class="tech-stack-box" data-aos="fade-up">
               <img src="./src/png/Python.png" alt="git skill" class="tech-stack-logo" />
               <span class="tooltip">PYTHON</span>
@@ -423,15 +444,14 @@
                 <!-- <img src="src/webp/pexelicon-favicon.webp" alt="pexelicon website favicon" class="faviconforProject" /> -->
                 <article class="ProjectHeading">Fundamental knowledge of E-Commerce</article>
                 <p class="ProjectDescription">
-                  
+
                 </p>
                 <div class="project-buttons">
                   <a href="./src/pdf/e comm.jpg" target="_blank" class="github-redirect"
                     aria-label="Visit Pexelicons on GitHub">
                     <img src="src/svg/github.svg" alt="github redirect button" />
                   </a>
-                  <a href="./src/pdf/e comm.jpg" target="_blank" class="cta"
-                    aria-label="Visit Pexelicons Live">
+                  <a href="./src/pdf/e comm.jpg" target="_blank" class="cta" aria-label="Visit Pexelicons Live">
                     <span>view</span>
                     <svg viewBox="0 0 13 10" height="10px" width="15px">
                       <path d="M1,5 L11,5"></path>
@@ -447,7 +467,7 @@
           </div> <!-- certificate -->
           <!-- ---------------------- -->
           <!-- ---------------------- -->
-           
+
         </div>
         <div class="project-boxes-div">
           <div data-aos="fade-up" class="project-box-wrapper">
@@ -456,15 +476,14 @@
                 <!-- <img src="src/webp/pexelicon-favicon.webp" alt="pexelicon website favicon" class="faviconforProject" /> -->
                 <article class="ProjectHeading">Introduction to web development</article>
                 <p class="ProjectDescription">
-                  
+
                 </p>
                 <div class="project-buttons">
                   <a href="./src/pdf/web d cer.png" target="_blank" class="github-redirect"
                     aria-label="Visit Pexelicons on GitHub">
                     <img src="src/svg/github.svg" alt="github redirect button" />
                   </a>
-                  <a href="./src/pdf/web d cer.png" target="_blank" class="cta"
-                    aria-label="Visit Pexelicons Live">
+                  <a href="./src/pdf/web d cer.png" target="_blank" class="cta" aria-label="Visit Pexelicons Live">
                     <span>view</span>
                     <svg viewBox="0 0 13 10" height="10px" width="15px">
                       <path d="M1,5 L11,5"></path>
@@ -475,10 +494,10 @@
               </div>
               <div class="image-div">
                 <img src="src/pdf/web d cer.png" alt="Pexelicon website preview image" />
-              </div>  
+              </div>
             </div>
           </div> <!-- certificate -->
-      </div>
+        </div>
     </section>
     <!-- certificate section ends here -->
     <section class="projects-section-container" id="projects">
@@ -493,17 +512,17 @@
           <div data-aos="fade-up" class="project-box-wrapper">
             <div class="project-box project-box2" id="project-box2">
               <div class="info-div">
-                <img src="src/webp/pexelicon-favicon.webp" alt="pexelicon website favicon" class="faviconforProject" />
+                <!-- <img src="src/webp/pexelicon-favicon.webp" alt="pexelicon website favicon" class="faviconforProject" /> -->
                 <article class="ProjectHeading">Hostel management system</article>
                 <p class="ProjectDescription">
                   Hostel management system - A website to handle hostel system.
                 </p>
                 <div class="project-buttons">
-                  <a href="https://github.com/mohit08-tech/hostel-management-system" target="_blank" class="github-redirect"
-                    aria-label="Visit Pexelicons on GitHub">
+                  <a href="https://github.com/mohit08-tech/hostel-management-system" target="_blank"
+                    class="github-redirect" aria-label="Visit Pexelicons on GitHub">
                     <img src="src/svg/github.svg" alt="github redirect button" />
                   </a>
-                  <a href="#" target="_blank" class="cta"
+                  <a href="https://github.com/mohit08-tech/hostel-management-system" target="_blank" class="cta"
                     aria-label="Visit Pexelicons Live">
                     <span>Live view</span>
                     <svg viewBox="0 0 13 10" height="10px" width="15px">
@@ -519,8 +538,8 @@
             </div>
           </div> <!-- Hostel management  -->
           <!-- ---------------------- -->
-          
-             
+
+
         </div>
       </div>
     </section>
@@ -553,8 +572,8 @@
                   d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z" />
               </svg></a>
 
-            <a href="https://www.linkedin.com/in/mohit-parmar-722b57226" target="_blank"
-              aria-label="My Linkdin"><svg class="SocialHandle" viewBox="0 0 448 512">
+            <a href="https://www.linkedin.com/in/mohit-parmar-722b57226" target="_blank" aria-label="My Linkdin"><svg
+                class="SocialHandle" viewBox="0 0 448 512">
                 <path
                   d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z" />
               </svg></a>
@@ -573,7 +592,8 @@
           </div>
         </div>
         <div class="footer-avatar-container">
-          <img src="src/png/footer-avatar-Vinod.png" alt="animation-head" class="footer-avatar-img" id="footer-wala-avatar"/>
+          <img src="src/png/footer-avatar-Vinod.png" alt="animation-head" class="footer-avatar-img"
+            id="footer-wala-avatar" />
           <div class="footer-avatar-face">
             <div class="footer-avatar-eye footer-left-eye">
               <div class="footer-pupil"></div>
@@ -586,8 +606,8 @@
         <div class="footer-bottom">
           <article>
             Design & Built by Mohit parmar
-            &#169; 
-            <script type="text/javascript">var year = new Date();document.write(year.getFullYear());</script>
+            &#169;
+            <script type="text/javascript">var year = new Date(); document.write(year.getFullYear());</script>
 
           </article>
         </div>
@@ -610,7 +630,7 @@
       window.open(url, "_blank");
     }
   </script>
- 
+
 </body>
 
 </html>
