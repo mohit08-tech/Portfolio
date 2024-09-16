@@ -7,7 +7,7 @@
 [![Latest Release](https://img.shields.io/badge/Latest%20Release-11%20Jan%202024-yellow.svg)](https://github.com/mohit08-tech/Portfolio)
 <a href="https://github.com/mohit08-tech/Portfolio/blob/main/LICENSE"><img alt="License" src="http://img.shields.io/:license-mit-blue.svg?style=flat-square?style=flat-square" /></a>
 
-<img width="100%" alt="Portfolio Screenshot" src="https://github.com/mohit08-tech/Portfolio/blob/main/src/png/Preview-card-min">
+<img width="100%" alt="Portfolio Screenshot" src="https://github.com/mohit08-tech/Portfolio/blob/main/src/png/Preview-card-min.png">
 
 
 :star: Star me on GitHub — it helps!
